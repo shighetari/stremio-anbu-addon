@@ -1,0 +1,21 @@
+{
+  "id": "com.stremio.torrentio.addon",
+  "version": "1",
+  "name": "ANBU",
+  "description": "Checked & Secured by ANBU - Cybersecurity & AI Expert - Mr. B",
+  "catalogs": [],
+  "resources": [
+    {
+      "name": "stream",
+      "types": ["movie", "series", "anime"],
+      "idPrefixes": ["tt", "kitsu"]
+    }
+  ],
+  "types": ["movie", "series", "anime", "other"],
+  "background": "https://i.imgur.com/fxLmFlV.png",
+  "logo": "https://i.imgur.com/fxLmFlV.png",
+  "behaviorHints": {
+    "configurable": true,
+    "configurationRequired": false
+  }
+}
